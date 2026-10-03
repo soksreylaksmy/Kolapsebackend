@@ -1,0 +1,45 @@
+# Environment / secrets
+.env
+.env.*
+!.env.example
+
+# Python environments
+.venv/
+.venv-1/
+.venv_ai/
+
+# Python cache
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# Database backups
+*.dump
+*.sql
+*.bak
+
+# IDE
+.vscode/
+.idea/
+
+# Testing / cache
+.pytest_cache/
+.mypy_cache/
+.coverage
+htmlcov/
+
+# Logs
+*.log
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Git temporary files
+*.orig
+*.rej
+
+# Local backup files
+README.old.md
+docker-compose.backup.yml
